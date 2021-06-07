@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Black+Han+Sans&family=Do+Hyeon&display=swap');
+
+.mainHead {
+  text-align: center;
+  margin-top: 15px;
+}
+
+h1 {
+  font-family: 'Do Hyeon', sans-serif;
+  font-size: 40px
+  
+  
+}
+h2 {
+  font-family: 'Do Hyeon', sans-serif;
+  font-size: 22px
+  
+
+}
+h2 {
+  color: grey
+}
+
+
+ul, li {
+  list-style: none;
+}
+a {
+    text-decoration: none;
+    color: inherit;
+}
+* {
+  margin: 5;
+  padding: 0;
+}
+.list_wrap .item {
+  margin-top: 5%;
+  margin-left: 36%;
+  margin-right: 36%;
+  box-shadow: 0px 0px 5px rgba(0, 0, 0.5);
+
+}
+  
+.list_wrap .item .image {
+  width: 400px;
+  height: 200px;
+ background-image: url("img_08.jpg");
+ background-size: 400px 200px;
+ background-repeat: no-repeat;
+ padding: 10px;
+}
+
+
+.list_wrap .item strong {
+  display: block;
+  margin: 5px 0 5px 0;
+  font-family: 'Do Hyeon', sans-serif;
+  font-size: 24px;
+  letter-spacing: +2px;
+  padding: 10px;
+ 
+}
+
+.list_wrap .item p {
+  font-family: 'Do Hyeon', sans-serif;
+  font-size: 18px;
+  letter-spacing: +1px;
+  padding: 10px;
+}
+.list_wrap .item a {
+  font-family: 'Do Hyeon', sans-serif;
+  font-size: 20px;
+  display: inline-block;
+  margin-top: 10px;
+  padding: 6px 17px;
+  background: #eee
+
+
+}
+
+.title {
+  display: inline;
+  margin-left: 200px;
+}
+
+

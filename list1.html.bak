@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title> 성지순례 왔습니다! </title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="list_style.css">
+<style>
+   
+</style>
+
+<div class="mainHead">
+			<img src="img_03.jpg" style="width:15%">
+		</div>
+
+<!-- 사이드메뉴 환경설정-->
+<script>
+	function openNav() {
+		document.getElementById("mySidenav").style.width = "250px";
+	}
+
+	function closeNav() {
+	 document.getElementById("mySidenav").style.width = "0";
+	}
+</script>
+</head>
+
+<body>
+<header>
+<!-- 리스트메뉴-->
+    <span class="title"  style="font-size:30px; cursor:pointer" onclick="openNav()">&#9776;</span>   <!-- 리스트 메뉴 -->
+
+<!-- 사이드메뉴 시작-->
+<div id="mySidenav" class="sidenav">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>   <!-- 사이드메뉴 닫기 X -->
+  <a href="list.html#" onclick="closeNav()">산</a>
+  <a href="#About" onclick="closeNav()">바다</a>
+  <a href="#">골목</a>
+  <a href="#">기타</a>
+  <a href="#">커뮤니티</a>
+</div>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<style>
+	.mySlides {
+			width: 1000px;
+	}
+
+</style>
+</head>
+
+<body>
+
+<div class="w3-content w3-display-container">
+  <img class="mySlides" src="img_02.jpg" style="width:87%">
+  <img class="mySlides" src="img_04.jpg" style="width:87%">
+  <img class="mySlides" src="img_05.jpg" style="width:87%">
+
+  <button class="w3-button w3-black w3-display-left" onclick="plusDivs(-1)">&#10094;</button>
+  <button class="w3-button w3-black w3-display-right" onclick="plusDivs(1)">&#10095;</button>
+</div>
+
+<!-- manual slide javaScript -->
+<script>
+var slideIndex = 1;
+showDivs(slideIndex);
+
+function plusDivs(n) {
+  showDivs(slideIndex += n);
+}
+
+function showDivs(n) {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  if (n > x.length) {slideIndex = 1}    
+  if (n < 1) {slideIndex = x.length}
+  for (i = 0; i < x.length; i++) {
+     x[i].style.display = "none";  
+  }
+  x[slideIndex-1].style.display = "block";  
+}
+</script>
+&nbsp;
+&nbsp;
+<center><h2>영화 속 그곳이 어디라고? </h2>
+<p>#한국_영화 #촬영지 #핫플 #대중교통_노선 #추천_코스</p>
+</center>
+
+</body>
+</html>
+
+
+</header>
+ <!-- section 영역--> 
+ <section>
+
+         <!-- mnu별 내용 영역--> 
+		<div class="mnu">
+
+                <!-- About 영역--> 
+               <a name="About">   <!-- About 책갈피--> 
+		       <h2 class="title title-30"> </h2>
+			         <div class="contents contents-30">
+
+			        
+        <div >
+			<img src="img_06.jpg" style="width:15%">
+		</div>
+
+			         </div> <!-- About 영역 End-->
+					 
+&nbsp;
+&nbsp;
+			
+		</div>
+              
+		</div>  <!-- mnu 영역 End--> 	 
+   </section>     <!-- section 영역 End-->
+    <footer>
+        <h5 align="center">copyright 2021. (18조) all rights reserved. </h5>
+    </footer>
+
+</body>
+</html>
+

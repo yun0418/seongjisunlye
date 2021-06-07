@@ -1,0 +1,167 @@
+<!--sub1.html-->
+<!DOCTYPE HTML>
+<html>
+ <head>
+  <title> 산 </title>
+  <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="list_style.css">
+   <style>
+
+ @font-face {
+            font-family: 'Nanum Gothic';
+            src: url(NanumGothic.otf);        
+           }     
+  
+	 body{
+		  font-family: 'Nanum Gothic';
+		  font-size: 15px;
+          line-height: 1.8;
+		 }
+
+	.title, .contents{
+	      width: 1000px;
+          margin: auto;    
+	      display: block;
+		  text-align: justify!important;
+          }
+
+	.contents img {
+			width: 600px;
+			margin: 20px;
+		}
+
+	.float-img img {
+			width: 290px;
+			margin: 20px;
+		}
+
+	 .title-30 {
+  	  	   padding-top: 35px!important;
+		}
+
+	 .contents-40 {
+ 	        padding-bottom: 40px!important;
+		}
+
+	.imgr {
+ 	   float: right;
+	       }
+
+	.imgl {
+        float: left;
+	       }
+
+   .line_clear {
+     clear: both;
+	 }
+
+</style>
+
+<center>
+<a href="index.html#"><img src="img_03.jpg" style="width:15%"></a>
+</center>
+	
+
+<!-- 위치 정보 -->
+<script language="JavaScript">
+         function doResize() {
+         var ht = myframe.document.body.scrollHeight;
+         document.getElementById('icontainer').style.height = ht + "px";
+         }
+ </script>
+ </head>
+
+<!-- 사이드메뉴 환경설정-->
+<script>
+	function openNav() {
+		document.getElementById("mySidenav").style.width = "250px";
+	}
+
+	function closeNav() {
+	 document.getElementById("mySidenav").style.width = "0";
+	}
+</script>
+</head>
+
+ <body>
+ <header>
+ <!-- 리스트메뉴-->
+    <span class="title"  style="font-size:30px; cursor:pointer" onclick="openNav()">&#9776;</span>   <!-- 리스트 메뉴 -->
+
+<!-- 사이드메뉴 시작-->
+<div id="mySidenav" class="sidenav">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>   <!-- 사이드메뉴 닫기 X -->
+  <a href="sub1.html#" onclick="closeNav()">산</a>
+  <a href="sub2.html#" onclick="closeNav()">바다</a>
+  <a href="sub3.html#" onclick="closeNav()">골목</a>
+  <a href="sub4.html#" onclick="closeNav()">기타</a>
+  <a href="#">커뮤니티</a>
+</div>
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<style>
+	.mySlides {
+			width: 1000px;
+	}
+
+</style>
+</head>
+		
+		<div class="page">
+		       <h2 class="title title-30">영화 [사도] 촬영지</h2>
+			   <h3 class="title title-30">안동 만휴정(晩休亭)</h3>
+			   <div class="contents contents-40">
+			         <img class="imgr" src="만휴정.jpg" style="width:40%" style="margin-left:30px; margin-bottom:30px" width="600">
+					 &nbsp;
+			         <p>영화 [사도], 드라마 [미스터 션샤인]의 촬영지로 유명한 안동 만휴정! 정자와 다리, 송암폭포가 한데 어우러져 운치있는 풍경이 펼쳐지는데요. 한국정신문화의 수도, 
+안동의 문화재답게, 옛 멋을 고스란히 간직한 곳입니다. 현재까지도 잘 관리되고 있는 만휴정은 많은 관광객들이 '인생샷'을 찍기 위해 거쳐간다는 곳이기도 합니다.</p>
+			         <p>만휴정은 여러 차례 수리를 통하여 다소 변형되었으나 조선 후기의 양식을 보이는 부분도 있습니다. 동남향으로 자리한 만휴정은 정면 3칸, 측면 2칸입니다.
+앞쪽은 3면이 개방된 누마루 형식으로 개방하여 자연경관을 감상할 수 있도록 하였으며 누각 주위 3면에는 계자 난간을 설치하였습니다.</p>
+			   </div>
+			   <div class="contents contents-40">
+			         <p>◈ 소  재  지  : 안동시 길안면 묵계하리길 42</p>
+					 <p>◈ 지정 번호 : 경북문화재자료 제173호</p>
+					 <p>◈ 연  락  처  : 054)856-3013</p>
+
+
+
+			   </div>
+
+  <!-- Gallery Image-->
+		       <h2 class="title title-30">Gallery</h2>
+			   <div class="contents float-img contents-40 ">
+			         <img src="만휴정.jpg" onclick="onClick(this)" >
+					 <img src="만휴정2.jpg" onclick="onClick(this)">
+					 <img src="만휴정3.jpg" onclick="onClick(this)">
+					 <div class="line_clear"></div>
+			         <img src="만휴정4.jpg" onclick="onClick(this)">
+					 <img src="만휴정5.jpg" onclick="onClick(this)">
+					 <img src="만휴정6.jpg" onclick="onClick(this)">
+			   </div>
+
+
+  <!-- Modal for full size images on click-->
+  <div id="modal01" class="w3-modal w3-black" style="padding-top:0" onclick="this.style.display='none'">
+    <span class="w3-button w3-black w3-xxlarge w3-display-topright">×</span>
+    <div class="w3-modal-content w3-animate-zoom w3-center w3-transparent w3-padding-64">
+      <img id="img01" class="w3-image">
+      <p id="caption"></p>
+    </div>
+  </div>
+<!-- End page content -->
+
+		       <h2 class="title title-30">Location</h2>
+			   <div class="contents contents-40">
+                     <div id="icontainer"  align="center" width="1800" height="1500" />                          		  
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3210.9489624963603!2d128.90761551480867!3d36.410430097243186!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x356695e736dd2245%3A0x811cf1b850ed6f3a!2z66eM7Zy07KCVIOybkOumvA!5e0!3m2!1sko!2skr!4v1623077882979!5m2!1sko!2skr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                    </div>
+			   </div>
+	
+<!-- page div-->
+<!-- The Modal  View-->
+  <script src="gallery_view.js"></script>
+
+	   </body>
+	   </html>
